@@ -30,3 +30,8 @@ line_after=${line_after:-1}
 
 grep -B "$line_before" -A "$line_after" "$pattern" "$log_file" -C1 | sort > log.txt
 
+
+####################################
+#practice purpose
+
+Additon=a+b
