@@ -24,7 +24,7 @@ if [[ -z "$pattern" ]]; then
 	exit 1
 fi
 
-line_before=${line_before:-2}
+line_before=${line_before:-1}
 line_after=${line_after:-1}
 #use above details to grep the details
 
