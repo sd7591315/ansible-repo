@@ -35,3 +35,4 @@ grep -B "$line_before" -A "$line_after" "$pattern" "$log_file" -C1 | sort > log.
 #practice purpose
 
 Additon=a+b
+Division=a/b
